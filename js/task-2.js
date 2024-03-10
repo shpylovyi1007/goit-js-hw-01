@@ -1,8 +1,8 @@
 'use strict';
 
 function getShippingMessage(country, price, deliveryFee) {
-    let totalPrice = price + deliveryFee;
-    console.log(`Shipping to ${country} will cost ${totalPrice} credits`)
+    const totalPrice = price + deliveryFee;
+    console.log(`Shipping to ${country} will cost ${totalPrice} credits`);
     return price + deliveryFee;
 }
 
